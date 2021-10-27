@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">calculator-oct-21</string>
+    <string name="text_but_one">1</string>
+    <string name="text_but_two">2</string>
+    <string name="text_but_three">3</string>
+    <string name="text_but_four">4</string>
+    <string name="text_but_five">5</string>
+    <string name="text_but_six">6</string>
+    <string name="text_but_seven">7</string>
+    <string name="text_but_eight">8</string>
+    <string name="text_but_nine">9</string>
+    <string name="text_but_zero">0</string>
+    <string name="text_but_equals">=</string>
+    <string name="text_but_milti">×</string>
+    <string name="text_but_div">/</string>
+    <string name="text_but_add">+</string>
+    <string name="text_but_sub">-</string>
+    <string name="text_but_clear">AC</string>
+    <string name="text_but_percent">%</string>
+    <string name="text_but_para">+/-</string>
+    <string name="text_but_dot">.</string>
 </resources>

@@ -10,14 +10,15 @@
     tools:context=".MainActivity">
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button1"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="1"
+        android:text="@string/text_but_one"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -25,14 +26,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.817" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="2"
+        android:text="@string/text_but_two"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.352"
@@ -40,14 +42,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.817" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button3"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="3"
+        android:text="@string/text_but_three"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
@@ -55,14 +58,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.817" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button4"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="4"
+        android:text="@string/text_but_four"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -70,14 +74,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.677" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button5"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="5"
+        android:text="@string/text_but_five"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.352"
@@ -85,14 +90,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.677" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button6"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="6"
+        android:text="@string/text_but_six"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
@@ -100,14 +106,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.677" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button7"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="7"
+        android:text="@string/text_but_seven"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -115,14 +122,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button8"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="8"
+        android:text="@string/text_but_eight"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.352"
@@ -130,14 +138,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button9"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="9"
+        android:text="@string/text_but_nine"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
@@ -145,15 +154,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button0"
         android:layout_width="185dp"
         android:layout_height="80dp"
         android:background="@drawable/new_but"
         android:paddingRight="95sp"
-        android:text="0"
+        android:text="@string/text_but_zero"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.061"
@@ -161,14 +171,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_equal"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/arithmatic_button"
-        android:text="="
+        android:text="@string/text_but_equals"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
@@ -176,14 +187,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_multi"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/arithmatic_button"
-        android:text="×"
+        android:text="@string/text_but_milti"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
@@ -191,14 +203,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_divide"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/arithmatic_button"
-        android:text="/"
+        android:text="@string/text_but_div"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.987"
@@ -206,14 +219,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.406" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_add"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/arithmatic_button"
-        android:text="+"
+        android:text="@string/text_but_add"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
@@ -221,14 +235,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.817" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_sub"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/arithmatic_button"
-        android:text="-"
+        android:text="@string/text_but_sub"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
@@ -236,14 +251,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.677" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_clear"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/button"
-        android:text="AC"
+        android:text="@string/text_but_clear"
         android:textColor="#060606"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -251,14 +267,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.406" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_para1"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/button"
-        android:text="%"
+        android:text="@string/text_but_percent"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
@@ -266,14 +283,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.406" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_para2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/button"
-        android:text="+/-"
+        android:text="@string/text_but_para"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.349"
@@ -281,14 +299,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.406" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/MyCoolStyle"
         android:id="@+id/button_dot"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/button_width_default"
+        android:layout_height="@dimen/button_height_default"
         android:background="@drawable/circle_button"
-        android:text="."
+        android:text="@string/text_but_dot"
         android:textColor="#ffff"
-        android:textSize="28sp"
+        android:textSize="@dimen/text_but_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.671"
@@ -297,6 +316,7 @@
         app:layout_constraintVertical_bias="0.958" />
 
     <TextView
+        style="@style/MyCoolStyle"
         android:id="@+id/input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -310,6 +330,7 @@
         app:layout_constraintVertical_bias="0.252" />
 
     <TextView
+        style="@style/MyCoolStyle"
         android:id="@+id/output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
