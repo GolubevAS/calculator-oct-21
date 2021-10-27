@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/arithmatic_button.xml" value="0.18888888888888888" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.18888888888888888" />
+        <entry key="app/src/main/res/drawable/circle_button.xml" value="0.18888888888888888" />
+        <entry key="app/src/main/res/drawable/new_but.xml" value="0.18888888888888888" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
