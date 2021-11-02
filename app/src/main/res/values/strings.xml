@@ -19,4 +19,11 @@
     <string name="text_but_percent">%</string>
     <string name="text_but_para">+/-</string>
     <string name="text_but_dot">.</string>
+    <string name="text_start">КАЛЬКУЛЯТОР</string>
+    <string name="text_start_mini">2021</string>
+    <string name="myCoolStyle">My cool style</string>
+    <string name="dark">Dark theme</string>
+    <string name="light">Light theme</string>
+    <string name="button_ok">НАЧАТЬ!</string>
+    <string name="back">Назад</string>
 </resources>
